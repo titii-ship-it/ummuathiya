@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="106dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="288dp"
+        android:text="Profile"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <Button
+        android:id="@+id/btnBerita"
+        android:layout_width="101dp"
+        android:layout_height="52dp"
+        android:text="Berita"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="105dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="660dp"
+        android:text="Home"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBerita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtUname"
+        android:layout_width="362dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="588dp"
+        android:hint="Email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="358dp"
+        android:layout_height="56dp"
+        android:hint="NIM"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="358dp"
+        android:layout_height="55dp"
+        android:hint="Kelas"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="143dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/black"
+        android:text="LOGOUT"
+        android:textSize="20dp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

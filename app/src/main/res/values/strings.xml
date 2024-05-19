@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ummuathiya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="berita">Berita</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="data_alumni">Data Alumni</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="tes">tes tes tes tes tes</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+
+    <string name="email">Email</string>
+    <string name="nim">Nim</string>
+    <string name="nama">Nama</string>
+    <string name="kelas">Kelas</string>
+</resources>

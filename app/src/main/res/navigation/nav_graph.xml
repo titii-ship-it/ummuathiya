@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ummuathiya.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/beritaFragment"
+        android:name="com.example.ummuathiya.BeritaFragment"
+        android:label="fragment_berita"
+        tools:layout="@layout/fragment_berita" >
+        <action
+            android:id="@+id/action_beritaFragment_to_beritaDetailFragment"
+            app:destination="@id/beritaDetailFragment">
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.ummuathiya.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/beritaDetailFragment"
+        android:name="com.example.ummuathiya.BeritaDetailFragment"
+        android:label="fragment_berita_detail"
+        tools:layout="@layout/fragment_berita_detail">
+        <argument
+            android:name="artikel"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+</navigation>
